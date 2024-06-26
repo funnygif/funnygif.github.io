@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 import sys
 
 def generate_gif(ip, output_file):
-    # Create a blank image
+    # Create a blank image 
     width, height = 200, 100
     image = Image.new('RGB', (width, height), color = (73, 109, 137))
     
