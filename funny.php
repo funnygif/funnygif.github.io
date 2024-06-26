@@ -6,4 +6,3 @@ shell_exec("python3 generate_gif.py $escaped_ip $output_file");
 header('Content-Type: image/gif');
 readfile($output_file);
 unlink($output_file);
-?>
